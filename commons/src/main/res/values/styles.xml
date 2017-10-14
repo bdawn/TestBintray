@@ -1,0 +1,137 @@
+<resources>
+
+    <style name="DialogStyle" parent="@android:style/Theme.Dialog">
+        <item name="android:windowFrame">@null</item>
+        <item name="android:textColor">@null</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:backgroundDimAmount">0.3</item>
+        <item name="android:backgroundDimEnabled">true</item>
+        //动画效果
+        <!--<item name="android:windowAnimationStyle">@style/MyAnimation</item>-->
+        <item name="android:textColorPrimary">#DD000000</item>
+        <item name="android:textColorSecondary">#8A000000</item>
+        <item name="android:textColorHint">#42000000</item>
+        <item name="android:windowCloseOnTouchOutside">false</item>
+    </style>
+
+    //进入和退出的动画命名
+
+    <style name="MyAnimation">
+        <item name="android:windowEnterAnimation">@anim/dialog_top_enter</item>
+        <item name="android:windowExitAnimation">@anim/dialog_top_exit</item>
+    </style>
+
+    <style name="take_pop_anim" parent="android:Animation">
+        <item name="android:windowEnterAnimation">@anim/pop_enter_anim</item>
+        <item name="android:windowExitAnimation">@anim/pop_exit_anim</item>
+    </style>
+
+    <style name="run_data_name">
+        <item name="android:textSize">@dimen/x40</item>
+        <item name="android:drawablePadding">@dimen/x5</item>
+        <item name="android:gravity">center</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+
+    <style name="run_data_value">
+        <item name="android:textSize">@dimen/x40</item>
+        <item name="android:gravity">center</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+
+    <!--工程模式密码输入框样式-->
+    <style name="engineer_psw_et_style">
+        <item name="android:textSize">@dimen/x40</item>
+        <item name="android:layout_centerInParent">true</item>
+        <item name="android:inputType">number</item>
+        <item name="android:maxLength">1</item>
+        <item name="android:numeric">integer</item>
+        <item name="android:gravity">center</item>
+        <item name="android:layout_width">@dimen/x60</item>
+        <item name="android:layout_height">@dimen/x60</item>
+        <item name="android:background">@drawable/shape_engineer_psw</item>
+    </style>
+
+    <!--工程模式密码输入框容器样式-->
+    <style name="engineer_psw_container_style">
+        <item name="android:textSize">@dimen/x40</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">match_parent</item>
+    </style>
+
+
+    <!--工程模式测试项目容器样式-->
+    <style name="engineer_test_container_style">
+        <item name="android:layout_weight">1</item>
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_margin">@dimen/x10</item>
+        <item name="android:layout_marginTop">@dimen/y50</item>
+        <item name="android:background">@color/Gray</item>
+        <item name="android:orientation">vertical</item>
+    </style>
+
+    <!--工程模式测试项目图片样式-->
+    <style name="engineer_test_image_style">
+        <item name="android:layout_width">@dimen/x200</item>
+        <item name="android:layout_height">@dimen/x200</item>
+        <item name="android:layout_marginTop">@dimen/y50</item>
+        <item name="android:layout_gravity">center_horizontal</item>
+    </style>
+
+    <!--工程模式测试项目结果样式-->
+    <style name="engineer_test_result_style">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textSize">@dimen/x70</item>
+        <item name="android:layout_marginTop">@dimen/y50</item>
+        <item name="android:layout_centerHorizontal">true</item>
+        <item name="android:textColor">@color/yellow_theme_text</item>
+    </style>
+
+    <!--工程模式测试项目文字样式-->
+    <style name="engineer_test_text_style">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">@dimen/y150</item>
+        <item name="android:textSize">@dimen/x100</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:layout_marginTop">@dimen/y50</item>
+        <item name="android:gravity">center</item>
+    </style>
+
+    <!--工程模式测试项目提示样式-->
+    <style name="engineer_test_remind_style">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textSize">@dimen/x50</item>
+        <item name="android:layout_marginTop">@dimen/y10</item>
+        <item name="android:layout_centerHorizontal">true</item>
+        <item name="android:textColor">@color/yellow_theme_text</item>
+    </style>
+
+    <!--通用按钮样式-->
+    <style name="common_btn_style">
+        <item name="android:onClick">onClick</item>
+        <item name="android:clickable">true</item>
+        <item name="android:layout_centerInParent">true</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textColor">@color/selector_white_yellow</item>
+        <item name="android:background">@drawable/shape_login_btn</item>
+    </style>
+
+    <!--配置文字的颜色和字体-->
+    <style name="base_text_style">
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+</resources>

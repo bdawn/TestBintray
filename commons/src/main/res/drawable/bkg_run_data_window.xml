@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_enabled="true">
+        <layer-list>
+            <!-- Shadow -->
+            <item>
+                <layer-list>
+                    <item>
+                        <shape>
+                            <solid android:color="#00000000" />
+                            <padding android:top="@dimen/x2" />
+                        </shape>
+                    </item>
+                    <item>
+                        <shape>
+                            <solid android:color="#02000000" />
+                            <padding android:top="@dimen/x2" />
+                        </shape>
+                    </item>
+                    <item>
+                        <shape>
+                            <solid android:color="#04000000" />
+                            <padding android:top="@dimen/x2" />
+                        </shape>
+                    </item>
+                    <item>
+                        <shape>
+                            <solid android:color="#06000000" />
+                            <padding  android:top="@dimen/x2" />
+                        </shape>
+                    </item>
+                    <item>
+                        <shape>
+                            <solid android:color="#08000000" />
+                            <padding android:top="@dimen/x2" />
+                        </shape>
+                    </item>
+                    <item>
+                        <shape>
+                            <solid android:color="#0a000000" />
+                            <padding android:top="@dimen/x2" />
+                        </shape>
+                    </item>
+                    <item>
+                        <shape>
+                            <solid android:color="#0c000000" />
+                            <padding  android:top="@dimen/x2" />
+                        </shape>
+                    </item>
+                    <item>
+                        <shape>
+                            <solid android:color="#0e000000" />
+                            <padding  android:top="@dimen/x2" />
+                        </shape>
+                    </item>
+                    <item>
+                        <shape>
+                            <solid android:color="#10000000" />
+                            <padding  android:top="@dimen/x2" />
+                        </shape>
+                    </item>
+                    <item>
+                        <shape>
+                            <solid android:color="#12000000" />
+                            <padding  android:top="@dimen/x2" />
+                        </shape>
+                    </item>
+
+                </layer-list>
+            </item>
+        </layer-list>
+    </item>
+</selector>

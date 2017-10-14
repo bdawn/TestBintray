@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="@dimen/x1000"
+    android:layout_height="wrap_content"
+    android:background="#CCD3D3D3"
+    android:orientation="vertical">
+
+    <ImageView
+        android:id="@+id/close"
+        android:layout_width="@dimen/x100"
+        android:layout_height="@dimen/x100"
+        android:layout_gravity="right"
+        android:layout_margin="10dp"
+        android:padding="10dp"
+        android:src="@drawable/ic_close" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/iv_remind"
+            android:layout_width="@dimen/x150"
+            android:layout_height="@dimen/x150"
+            android:layout_centerInParent="true"
+            android:src="@drawable/ic_launcher" />
+
+        <TextView
+            android:id="@+id/tv_remind"
+            android:textSize="@dimen/x30"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/iv_remind"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="@dimen/y50"
+            android:text="请输入调试密码" />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="@dimen/x500"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="@dimen/y50">
+
+        <RelativeLayout style="@style/engineer_psw_container_style">
+
+            <EditText
+                android:id="@+id/et_1"
+                style="@style/engineer_psw_et_style" />
+
+        </RelativeLayout>
+
+
+        <RelativeLayout style="@style/engineer_psw_container_style">
+
+            <EditText
+                android:id="@+id/et_2"
+                style="@style/engineer_psw_et_style" />
+
+        </RelativeLayout>
+
+
+        <RelativeLayout style="@style/engineer_psw_container_style">
+
+            <EditText
+                android:id="@+id/et_3"
+                style="@style/engineer_psw_et_style" />
+
+        </RelativeLayout>
+
+
+        <RelativeLayout style="@style/engineer_psw_container_style">
+
+            <EditText
+                android:id="@+id/et_4"
+                style="@style/engineer_psw_et_style" />
+
+        </RelativeLayout>
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/clear"
+        android:layout_marginTop="@dimen/x30"
+        android:layout_width="@dimen/x300"
+        android:layout_height="@dimen/y80"
+        android:layout_gravity="center"
+        android:text="重新输入密码"
+        android:gravity="center"
+        android:textColor="@color/selector_dark_yellow"
+        android:background="@drawable/shape_login_btn"
+        android:textSize="@dimen/x30" />
+
+</LinearLayout>

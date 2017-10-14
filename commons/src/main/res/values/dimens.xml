@@ -1,0 +1,22 @@
+<resources>
+    <!-- toast -->
+    <dimen name="common_toast_content_textview_height">120dp</dimen>
+    <dimen name="common_toast_content_textview_margin_60">10.0dp</dimen>
+    <dimen name="common_toast_content_textview_wdith">400.0dp</dimen>
+    <dimen name="common_toast_icon_img_height">50.0dp</dimen>
+    <dimen name="common_toast_icon_img_margin_top">24.0dp</dimen>
+    <dimen name="common_toast_icon_img_wdith">50.0dp</dimen>
+    <dimen name="common_toast_root_layout_height">200.0dp</dimen>
+    <dimen name="common_toast_root_layout_wdith">200.0dp</dimen>
+
+
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">@dimen/x10</dimen>
+    <dimen name="activity_vertical_margin">@dimen/y10</dimen>
+
+    <dimen name="header_bar_height">@dimen/y120</dimen>
+    <dimen name="header_bar_margin_left">@dimen/x48</dimen>
+    <dimen name="header_bar_margin_right">@dimen/x48</dimen>
+
+
+</resources>

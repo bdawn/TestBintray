@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">commons</string>
+    <array name="media_app_list">
+        <item>tv.pps.tpad</item>
+        <item>com.tencent.qqlivehd</item>
+    </array>
+</resources>

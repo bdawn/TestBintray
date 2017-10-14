@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/y160"
+    android:id="@+id/popup_window_panel"
+    android:paddingLeft="@dimen/x100"
+    android:paddingRight="@dimen/x100"
+    android:paddingBottom="@dimen/y20"
+    android:paddingTop="@dimen/y20"
+    android:background="@drawable/bkg_run_data_window"
+    android:orientation="horizontal">
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
+        <TextView
+            style="@style/run_data_name"
+            android:drawableLeft="@drawable/run_data_time"
+            android:text="耗时" />
+
+        <TextView
+            android:id="@+id/tv_run_data_time"
+            style="@style/run_data_value"
+            android:text="00:00:00" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:gravity="center_horizontal"
+        android:orientation="vertical">
+
+        <TextView
+            style="@style/run_data_name"
+            android:drawableLeft="@drawable/run_data_velocity"
+            android:text="配速" />
+
+        <TextView
+            android:id="@+id/tv_run_data_velocity"
+            style="@style/run_data_value"
+            android:text="0km/h" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
+        <TextView
+            style="@style/run_data_name"
+            android:drawableLeft="@drawable/run_data_distance"
+            android:text="路程" />
+
+        <TextView
+            android:id="@+id/tv_run_data_distance"
+            style="@style/run_data_value"
+            android:text="0km" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
+        <TextView
+            style="@style/run_data_name"
+            android:drawableLeft="@drawable/run_data_calorie"
+            android:text="热量" />
+
+        <TextView
+            android:id="@+id/tv_run_data_calorie"
+            style="@style/run_data_value"
+            android:text="0cal" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
+        <TextView
+            style="@style/run_data_name"
+            android:drawableLeft="@drawable/run_data_slope"
+            android:text="坡度" />
+
+        <TextView
+            android:id="@+id/tv_run_data_slope"
+            style="@style/run_data_value"
+            android:text="0" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
+        <TextView
+            style="@style/run_data_name"
+            android:drawableLeft="@drawable/run_data_heart_rate"
+            android:text="心率" />
+
+        <TextView
+            android:id="@+id/tv_run_data_heart_rate"
+            style="@style/run_data_value"
+            android:text="0" />
+    </LinearLayout>
+</LinearLayout>
